@@ -11,7 +11,7 @@ Cookstyle increases code quality by:
 
 * Enforcing style conventions and best practices.
 * Helping every member of a team to author similarly structured code
-* Establishing uniformity of source code
+* Maintaining uniformity in the source code.
 * Setting expectations for fellow (and future) project contributors
 * Detecting deprecated code that prevents using the latest Chef Infra Client releases
 * Detecting common Chef mistakes that cause code to fail or behave incorrectly
