@@ -10,7 +10,7 @@ Cookstyle is powered by the RuboCop linting engine. RuboCop ships with over thre
 Cookstyle increases code quality by:
 
 * Enforcing style conventions and best practices.
-* Helping every member of a team to author similarly structured code
+* Helping every member of a team author similarly structured code.
 * Maintaining uniformity in the source code.
 * Setting expectations for fellow (and future) project contributors.
 * Detecting deprecated code that prevents using the latest Chef Infra Client releases
