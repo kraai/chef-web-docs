@@ -13,7 +13,7 @@ Cookstyle increases code quality by:
 * Helping every member of a team author similarly structured code.
 * Maintaining uniformity in the source code.
 * Setting expectations for fellow (and future) project contributors.
-* Detecting deprecated code that prevents using the latest Chef Infra Client releases
+* Detecting deprecated code that creates errors after upgrading to a newer Chef Infra Client release.
 * Detecting common Chef mistakes that cause code to fail or behave incorrectly
 
 Cookstyle vs. Rubocop
