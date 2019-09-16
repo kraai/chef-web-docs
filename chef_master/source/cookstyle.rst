@@ -24,7 +24,6 @@ How does Cookstyle differ from RuboCop?
 
 Cookbook development differs from that of traditional Ruby software development, so we have tailored the list of built-in cops in RuboCop for cookbook development. For the most part, this means disabling cops deemed not useful for cookbook development. Occasionally, we've changed the configuration of a rule to enforce a different behavior altogether. We've also extended the base RuboCop package with a set of our own Chef Infra-specific cops. These cops are only found in Cookstyle and will help you to write more reliable and future-proof cookbooks.
 
-Stable
 
 RuboCop is an incredibly active project with new cops being introduced monthly. The new cops cause existing codebases to fail CI tests and force authors to constantly update their code. With Cookstyle, we update the RuboCop engine for bug and performance fixes, but we only change the set of cops that will fail tests once a year during Chef Infra's April major release. All new cops are introduced at RuboCop's "refactor" alert level, meaning they will alert to the screen as you run Cookstyle, but they won't fail a build. This stability means you are free to upgrade releases of Cookstyle without being forced to update your infrastructure code.
 
